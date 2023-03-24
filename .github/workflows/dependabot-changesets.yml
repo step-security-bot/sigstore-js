@@ -12,4 +12,4 @@ jobs:
     if: ${{ github.repository_owner == 'sigstore' &&  github.actor == 'dependabot[bot]' }}
     steps:
       - name: Dependabot Changesets
-        uses: feelepxyz/dependabot-changesets@0d623339356e43f9b962da61329803e33fffa9d1 # v1
+        uses: feelepxyz/dependabot-changesets@2d6ec3d11f39d39682c6ea53be1bd5faeb093897 # v1
